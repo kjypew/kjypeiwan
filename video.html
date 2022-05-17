@@ -1,0 +1,49 @@
+<!--
+ * Copyright (C) 2022 ruijiarobot. All Rights Reserved.
+ * @Author: LiuMingLang
+ * @Date: 2022-05-17 14:08:02
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html style="height:100%;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KJY陪玩</title>
+</head>
+<style>
+    body {
+        background: url("resource/background.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #cccccc;
+        padding: 5px;
+        height: calc(100% - 10px);
+        width: calc(100% - 20px)
+    }
+</style>
+<script>
+</script>
+
+<body>
+    <div style="height: 5%;text-align: center; width: fit-content; margin: auto; font-weight: bold; font-size: larger;">
+        视频</div>
+    <video width="50%" height="50%" controls style="margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+        <source src="video/play.mp4" type="video/mp4">
+        <source src="video/play.ogg" type="video/ogg">
+        <source src="video/play.webm" type="video/webm">
+        <object data="video/play.mp4" width="50%" height="50%">
+            <embed src="video/play.swf" width="50%" height="50%">
+        </object>
+    </video>
+    <div style="height:10%; text-align: center; width: fit-content; margin: auto; ">本人VX：hy508173498</div>
+    <div style=" height:5%; ">
+        <div onclick="location.href='introduce.html'" style=" text-align: center; width: fit-content; margin: auto; cursor: pointer; color: #db4e4e; font-weight: bold; font-size: larger; text-decoration: underline; ">点击了解陪玩伙伴</div>
+    </div>
+</body>
+
+</html>
